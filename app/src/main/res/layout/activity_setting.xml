@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="語言設定/语言设定："
+            android:textSize="20sp"
+            android:textColor="@color/colorFont"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorFont"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="字體大小/字体大小："
+        android:textSize="20sp"
+        android:textColor="@color/colorFont"/>
+
+    <SeekBar
+        android:id="@+id/seekbar_def"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="60"
+        android:progress="20" />
+    <TextView android:id="@+id/tvFontSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="預覽大小/预览大小"
+        android:textSize="20sp"
+        android:textColor="@color/colorFont"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/colorFont"
+        android:textColor="#ffffff"
+        android:text="更新"
+        android:textSize="20sp"
+        android:onClick="onClick_Update"/></LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">線上佛經</string>
+
+    <string name="language">TC</string>
+    <integer name="fontsize">20</integer>
+    <string name="banner_ad_unit_id">ca-app-pub-6939390369089301/9427952673</string>
+    <string name="tc_about">
+        <![CDATA[
+設計線上佛經的初衷，
+因為很多老人家不太會操作手機，
+又有唸佛經的需要，
+所以我設計了這個簡易的操作介面，
+可以調整字體大小與簡繁體字型，
+讓更多人可以方便使用，
+也算是功德一件。
+]]>
+    </string>
+    <string name="sc_about">
+        <![CDATA[
+设计在线佛经的初衷，
+因为很多老人家不太会操作手机，
+又有念佛经的需要，
+所以我设计了这个简易的操作接口，
+可以调整字体大小与简繁体字型，
+让更多人可以方便使用，
+也算是功德一件。
+]]>
+    </string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape       xmlns:android="http://schemas.android.com/apk/res/android"    >
+    <corners  android:radius="10dp"/> <!--圓角角度-->
+    <solid android:color="@color/colorBtnBackground"/> <!--填滿底色-->
+    <stroke  android:width="2dp"
+        android:color="@color/colorPrimaryDark"/> <!--邊框-->
+</shape>
